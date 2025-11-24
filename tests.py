@@ -1,9 +1,5 @@
 from main import BooksCollector
 
-@pytest.fixture
-def collector():
-    return BooksCollector()   
-
 class TestBooksCollector:
     
     def test_add_new_book_add_two_books(self, collector):
